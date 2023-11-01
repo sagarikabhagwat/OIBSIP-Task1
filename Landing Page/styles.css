@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Style the Hero Section */
+
+.hero {
+    background-image: url("Asset/nisarg-chaudhari-pKOiJH1VIAw-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 0; 
+    color: white;  
+    opacity: 6;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: underline solid black;
+    
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* Style the Destination Cards */
+.destinations {
+    background-color: #f7f7f7;
+    background-size: cover;
+    background-position: center;
+   
+
+}
+.destination-card {
+    background-color: rgb(13, 65, 80);
+    margin: 0.5rem;
+    padding: 10px;
+    border: 2.5px solid #000000;
+    
+}
+
+.destination-card img {
+    /* max-width: 50%; */
+    border: 2px solid #620202;
+    /* padding: 1rem; */
+    
+}
+
+.btn {
+    border-width: thin;
+    border-color: black;
+    border-style: groove;
+}
+
+/* Style the Contact Section */
+.contact {
+    background-color: #e7d9d9bd;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact h2 {
+    font-size: 2rem;
+}
+
+.contact p {
+    font-size: 1.25rem;
+}
+
+/* Style the Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Customize Bootstrap Buttons */
+.btn {
+    font-size: 1rem;
+}
